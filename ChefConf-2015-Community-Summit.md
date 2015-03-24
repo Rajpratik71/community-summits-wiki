@@ -26,4 +26,4 @@ If at any time you find yourself in any situation where you are neither learning
 5. See that notes are taken and posted to this wiki
 
 ## Session Notes
-For your session, create a new page in this wiki and post your notes. Then add a link to your notes in this section.
+For your session, create a new page in this wiki and post your notes. Then add a link to your notes in this section. Please begin your new page title with "ChefConf2015 ".
