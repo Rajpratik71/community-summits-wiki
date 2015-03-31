@@ -1,0 +1,1 @@
+Etherpad: https://e.chef.io/p/ruby_cookbook
