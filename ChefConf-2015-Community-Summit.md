@@ -2,6 +2,13 @@
 Date: Tuesday, March 31st, 2015
 Location: Santa Clara
 
+## Session Notes
+For your session, create a new page in this wiki and post your notes. Then add a link to your notes in this section. Please begin your new page title with "ChefConf2015 ".
++ [Converging Multiple Times in Test Kitchen](https://github.com/chef/community-summits/wiki/ChefConf2015-Converging-Multiple-Times-in-Test-Kitchen)
++ [Cookbook Patterns](https://github.com/chef/community-summits/wiki/ChefConf2015-Cookbook-patterns)
++ [Managing Rubies with Chef](https://github.com/chef/community-summits/wiki/ChefConf2015-Managing-Rubies-with-Chef)
++ [OpenStack Chef Provisioning](https://github.com/chef/community-summits/wiki/ChefConf2015-OpenStack-Chef_Provisioning)
+
 ## OpenSpaces Overview
 Mostly cribbed from [Harrison Owen](http://www.openspaceworld.com/brief_history.htm).
 ### Principles
@@ -24,10 +31,3 @@ If at any time you find yourself in any situation where you are neither learning
 3. Attend session you propose
 4. See that the session is facilitated
 5. See that notes are taken and posted to this wiki
-
-## Session Notes
-For your session, create a new page in this wiki and post your notes. Then add a link to your notes in this section. Please begin your new page title with "ChefConf2015 ".
-+ [Converging Multiple Times in Test Kitchen](https://github.com/chef/community-summits/wiki/ChefConf2015-Converging-Multiple-Times-in-Test-Kitchen)
-+ [Cookbook Patterns](https://github.com/chef/community-summits/wiki/ChefConf2015-Cookbook-patterns)
-+ [Managing Rubies with Chef](https://github.com/chef/community-summits/wiki/ChefConf2015-Managing-Rubies-with-Chef)
-+ [OpenStack Chef Provisioning](https://github.com/chef/community-summits/wiki/ChefConf2015-OpenStack-Chef_Provisioning)
