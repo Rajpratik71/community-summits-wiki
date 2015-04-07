@@ -32,3 +32,6 @@ Notes:
     - Chef rvm will be rewritten
     - Noah will most likely be plublishing a abstraction for rubies soon
     - Chef is interested in ripping out their ruby-installer stuff from omnibus to create a "thing" (possibly THE ruby cookbook)
+
+Even more notes available elsewhere!
++ http://dragoon.io/2015/04/07/chefconf-2015-community-summit-retro/
