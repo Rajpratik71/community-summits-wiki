@@ -107,3 +107,5 @@ Permission    : NT AUTHORITY\INTERACTIVE AccessAllowed, BUILTIN\Administrators A
 
 PS C:\WINDOWS\system32> Set-PSSessionConfiguration -Name microsoft.powershell -StartupScript
 ```
+
+[View original notes in etherpad](https://e.chef.io/p/PowerShell), 
