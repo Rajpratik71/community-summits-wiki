@@ -3,7 +3,6 @@ Date: Tuesday, March 31st, 2015
 Location: Santa Clara
 
 ## Session Notes
-For your session, create a new page in this wiki and post your notes. Then add a link to your notes in this section. Please begin your new page title with "ChefConf2015 ".
 + [Chef 12.2.0 Release Post-Mortem](https://github.com/chef/community-summits/wiki/ChefConf2015-Chef-12.2.0-Release-Post-Mortem)
 + [Chef Developer Program](https://github.com/chef/community-summits/wiki/ChefConf2015-Chef-Developer-Program)
 + [Chef Management Console UX](https://github.com/chef/community-summits/wiki/ChefConf2015-Chef-Management-Console-UX)
