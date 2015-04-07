@@ -65,3 +65,6 @@ Chef 12.2.0 introduced a bug which rendered Chef Client unusable for anybody usi
 
 Lots of talk, but start with RFC 0
 github.com/chef/chef-rfcs
+
+Even more notes available elsewhere!
++ http://dragoon.io/2015/04/07/chefconf-2015-community-summit-retro/
