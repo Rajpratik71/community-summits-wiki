@@ -36,3 +36,6 @@ Alternative approaches for LWRP (deep in the rabbit hole)
 
 
 View original notes on [etherpad](https://e.chef.io/p/cookbook_patterns)
+
+Even more notes available elsewhere!
++ http://dragoon.io/2015/04/07/chefconf-2015-community-summit-retro/
