@@ -10,6 +10,7 @@ For your session, create a new page in this wiki and post your notes. Then add a
 + [Chef Provision(ing)](https://github.com/chef/community-summits/wiki/ChefConf2015-Provisioning)
 + [Converging Multiple Times in Test Kitchen](https://github.com/chef/community-summits/wiki/ChefConf2015-Converging-Multiple-Times-in-Test-Kitchen)
 + [Cookbook Patterns](https://github.com/chef/community-summits/wiki/ChefConf2015-Cookbook-patterns)
++ [Docker](https://github.com/chef/community-summits/wiki/ChefConf2015-Docker)
 + [Managing Rubies with Chef](https://github.com/chef/community-summits/wiki/ChefConf2015-Managing-Rubies-with-Chef)
 + [OpenStack Chef Provisioning](https://github.com/chef/community-summits/wiki/ChefConf2015-OpenStack-Chef_Provisioning)
 + [PowerShell](https://github.com/chef/community-summits/wiki/ChefConf2015-PowerShell)
