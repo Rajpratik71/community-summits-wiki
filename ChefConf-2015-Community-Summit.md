@@ -12,6 +12,7 @@ For your session, create a new page in this wiki and post your notes. Then add a
 + [Managing Rubies with Chef](https://github.com/chef/community-summits/wiki/ChefConf2015-Managing-Rubies-with-Chef)
 + [OpenStack Chef Provisioning](https://github.com/chef/community-summits/wiki/ChefConf2015-OpenStack-Chef_Provisioning)
 + [PowerShell](https://github.com/chef/community-summits/wiki/ChefConf2015-PowerShell)
++ [Upgrading Chef 11 to Chef 12](https://github.com/chef/community-summits/wiki/ChefConf2015-Upgrading-Chef-11-to-Chef-12)
 
 ## OpenSpaces Overview
 Mostly cribbed from [Harrison Owen](http://www.openspaceworld.com/brief_history.htm).
