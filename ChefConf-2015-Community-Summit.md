@@ -4,6 +4,7 @@ Location: Santa Clara
 
 ## Session Notes
 For your session, create a new page in this wiki and post your notes. Then add a link to your notes in this section. Please begin your new page title with "ChefConf2015 ".
++ [Chef 12.2.0 Release Post-Mortem](https://github.com/chef/community-summits/wiki/ChefConf2015-Chef-12.2.0-Release-Post-Mortem)
 + [Chef Developer Program](https://github.com/chef/community-summits/wiki/ChefConf2015-Chef-Developer-Program)
 + [Converging Multiple Times in Test Kitchen](https://github.com/chef/community-summits/wiki/ChefConf2015-Converging-Multiple-Times-in-Test-Kitchen)
 + [Cookbook Patterns](https://github.com/chef/community-summits/wiki/ChefConf2015-Cookbook-patterns)
