@@ -1,6 +1,7 @@
 # Chef Community Summit 2015, Seattle
 Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattle
 ## Session Notes
++ [Ask Me Anything - Chef](https://github.com/chef/community-summits/wiki/Seattle2015-Ask-me-anything-Chef)
 + [Chef and Terraform](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-and-Terraform)
 + [CI Pipeline](https://github.com/chef/community-summits/wiki/Seattle2015-CI-Pipeline)
 + [Community Cookbook Guidelines](https://github.com/chef/community-summits/wiki/Seattle2015-Community-Cookbook-Guidelines)
