@@ -41,8 +41,13 @@ Single repo for Bento boxes will reduce replication moving forward
 ------------------
 
 Open sec images
+
 Hyper V support
+
 Windows templates
+
 kitchen -vagrant pointong to atlas
+
 No more S3
+
 Back filling old platforms OS . release - Seth said he will do boxes no matter what
