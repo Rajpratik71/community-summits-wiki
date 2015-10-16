@@ -22,7 +22,7 @@ Master Level Cookbook drives cookbook dependencies and also has the code.
  
  Policy Files supercede integration with existing roles and envrionment pinnings
  
- chef export policy
+ `chef export policy`
 
 Can set policy in client.rb on node, or via knife node edit => Policy group, policy #
 
