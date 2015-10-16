@@ -10,6 +10,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Chef and Terraform](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-and-Terraform)
 + [Chef Certification Program](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-Certification)
 + [Chef Client Performance Debugging](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-Client-Performance-Debugging)
++ [Chef Essentials](https://github.com/chef/community-summits/wiki/Chef-Essentials)
 + [Chef HA in AWS](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-HA-in-AWS)
 + [Chef Reference Architecture](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-Reference-Architecture)
 + [CI Pipeline](https://github.com/chef/community-summits/wiki/Seattle2015-CI-Pipeline)
