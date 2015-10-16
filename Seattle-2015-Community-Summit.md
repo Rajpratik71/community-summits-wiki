@@ -14,6 +14,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Chef HA in AWS](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-HA-in-AWS)
 + [Chef Reference Architecture](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-Reference-Architecture)
 + [CI Pipeline](https://github.com/chef/community-summits/wiki/Seattle2015-CI-Pipeline)
++ [Cookbooks](https://github.com/chef/community-summits/wiki/Seattle2015-Cookbooks)
 + [Community Cookbook Guidelines](https://github.com/chef/community-summits/wiki/Seattle2015-Community-Cookbook-Guidelines)
 + [Contributing to Open Source](https://github.com/chef/community-summits/wiki/Seattle2015-Contributing-to-Open-Source)
 + [Custom Resources](https://github.com/chef/community-summits/wiki/Seattle2015-Custom-Resources)
