@@ -62,3 +62,25 @@ Chef provisioining looks like a Chef converge but they are not the same and it i
 "and chef sucks for not having that" - chef employee 
 
 docs.chef.io and AWS README are not even consistent.
+
+Chef and Terraform
+Terraform allows codifying the infrastructure - stores information that they used to configure in the console.
+They use tags on the infrastructure to drive behavior in chef.  User Data also supplies the initial configuration that the first chef client run uses.
+
+Chef Provisioning on VMWare
+
+Chef Provisioning and multi node testing
+
+Chef Provisioning or Terraform to deploy Chef Servers: Which is the better option and why? We are looking to deploy Chef Servers closer to our customers both geographically and a Chef Server built to their specs.
+
+Do community members want Chef to support Chef integration and workflows with Terraform?
+
+Gap: spinning up a multi-node environment and performing integration testing afterward - either testing that the provisioning succeeded (right number of CPUs, RAM, etc.) and/or that the application actually functions (i.e. MySQL cluster, kill the master, does the app still work?).  No defined way to do this, some light patterns discussed, but no agreement on the best way of doing this.  Still seems new to most people.
+
+Terraform vs. Chef Provisioning: different models of thinking / approaching the actual provisioning.  Group did not identify one "deal-breaker" or "feature" that pushes someone to one tool vs. the other
+
+"I hate Chef Provisioning - it sucks, and it's difficult to use."  0-to-value w/ Terraform was 15 minutes.  
+
+How do we continue this conversation more regularly?  A number of room attendees wish to discuss more and don't want to wait until next year.  "gitter" is proposed as a good way to discuss more about Chef Provisioning.
+
+The lack of 'quick start' guide for Chef Provisioning has stopped many people from even getting started with it.  Terraform is the opposite - it is a great getting started guide that takes people from nothing to a provisioned machine in less than 5 minutes.
