@@ -25,6 +25,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Microsoft Platform + Chef](https://github.com/chef/community-summits/wiki/Seattle2015-Microsoft-Platform---Chef)
 + [Networking](https://github.com/chef/community-summits/wiki/Seattle2015-Networking)
 + [Secrets](https://github.com/chef/community-summits/wiki/Seattle2015-Secrets)
++ [Supermarket](https://github.com/chef/community-summits/wiki/Seattle2015-Supermarket)
 + [Tool Sprawl](https://github.com/chef/community-summits/wiki/Seattle2015-Tool-Sprawl)
 + [Versioning All the Things](https://github.com/chef/community-summits/wiki/Seattle2015-Versioning-All-the-Things)
 + [Windows](https://github.com/chef/community-summits/wiki/Seattle2015-Windows)
