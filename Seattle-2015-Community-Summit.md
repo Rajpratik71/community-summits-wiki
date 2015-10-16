@@ -8,6 +8,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Building Community Behind the Firewall](https://github.com/chef/community-summits/wiki/Seattle2015-Building-Community-Behind-the-Firewall)
 + [Chef and Azure](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-and-Azure)
 + [Chef and Terraform](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-and-Terraform)
++ [Chef and Things Not Managed by Chef](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-and-Things-Not-Managed-by-Chef)
 + [Chef Certification Program](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-Certification)
 + [Chef Client Performance Debugging](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-Client-Performance-Debugging)
 + [Chef Essentials](https://github.com/chef/community-summits/wiki/Chef-Essentials)
