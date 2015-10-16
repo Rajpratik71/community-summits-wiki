@@ -27,6 +27,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Desktop and Workstation Administration](https://github.com/chef/community-summits/wiki/Seattle2015-Desktop-Workstation-Management)
 + [Ease of Use](https://github.com/chef/community-summits/wiki/Seattle2015-Ease-of-Use)
 + [Emerging Anti-Patterns](https://github.com/chef/community-summits/wiki/Seattle2015-Emerging-Anti-Patterns)
++ [Exotic Environments and OSs](https://github.com/chef/community-summits/wiki/Seattle2015-Exotic-Environments-and-OS)
 + [Integration Testing](https://github.com/chef/community-summits/wiki/Seattle2015-Integration-Testing)
 + [Internal Chef Office Hours](https://github.com/chef/community-summits/wiki/Seattle2015-Internal-Chef-Office-Hours)
 + [Meeting Hacks](https://github.com/chef/community-summits/wiki/Seattle2015-Meeting-Hacks)
