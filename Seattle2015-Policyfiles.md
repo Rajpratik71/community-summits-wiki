@@ -1,5 +1,4 @@
-Session 1: Policy Files
-
+# Session 1: Policy Files
 Policy files 101
 - problem it solves:
 - eliminates need for Berkshelf
@@ -85,3 +84,64 @@ Naming recommendations for policyfiles (to facilitate search)
 
 How to search what nodes have a cookbook in its runlist?
 - chef-client will populate runlist based on policyfiles
+
+# Policy Files
+
+Dan D 
+   
+Some Berkshelf things work well.  Dependency solvers are good.  Chef servers don't know what Berksfile are though.    
+
+Compare policies with chef-solo.  Basic advantage vendored cookbooks together.
+
+
+Migration from roles, environments to policy files.  Convert all roles to policy files.  Sort of big migration.
+     
+Migration from wrapper cookbooks, environments, no roles.  Policies have versions and revisions map them to deployments. Talks about implementation methods, split out small group of nodes to implement some of the servers.  
+    
+How do we override by data center.  Could have policy group by data center?   Data bags to supply attributes is possible.  If you want attributes with the code you can put the attribute values in the code.
+
+May need to build hierarchy into the policy files.
+    
+
+Attribute precedence - policy files replaces roles.
+    
+
+Any way to add role equivalent quickly to a server - named run list might work.  They are a replacement for override runlists.
+
+What are environments in this set up, right now it's a hard error.  Searches need to be updated, but these decisions are open to change.
+
+One purpose is to get rid of environment pinning.  
+
+    
+If you have an existing node changed to policy mode, the runlist converts to essentially comments.
+
+Recommended way to provision a node (cloud init, chef provisioning).
+
+    
+
+Plans for runlist - no plan to deprecate runlists, roles, nodes in the near future.
+
+Best and common practices are hard to drive out.  Going to recommend policy files first. 
+
+Polciy files chef-solo willl be replaced by local mode. Couldn't follow the discussion.
+
+    
+
+Chris Roberts - use different resolver.  Doesn't want policy files.
+
+Dan the resolver can be replaced.
+    
+Christine - Do I need to update multiple policies to make slightly global change.   Response - not clear.  Inform application owners of the need for updates.  Policy files manage artifacts, they are not the artifacts themselves. Pipelines may need to own the lock files. Planning to add some sort of compostion, so policy files can include some sorts of secrets.
+    
+
+What problems are you solving?
++ Roles are not versioned. May or may not have solved this.
++ Workflow rfc.  
++ Get the same cookbook versions and solutions.
++ Dependency solver rage.  Produces unexpected solutions.Possible cookbook combination will run together for the first time in production.
++ Aiming for safer implementation.  Limit ability to shoot self in your foot.
+
+
+Nathan - how do you use search?  Similar to existing methods.  Chef server 12.3, node objects will have policy name and group. 
+     
+Multiple folks - confused discussions.
