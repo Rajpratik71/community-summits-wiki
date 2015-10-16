@@ -1,6 +1,6 @@
 Couple things we want to talk about
 1. Controlling things that you can not put Chef Client on.
-2. When Chef is not the cannonical source of truth
+2. When Chef is not the canonical source of truth
 
 An example of this. Chef on Windows. Integrate with AD using Chef Vault authentication.
 
