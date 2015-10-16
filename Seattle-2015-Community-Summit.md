@@ -4,5 +4,6 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Chef and Terraform](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-and-Terraform)
 + [CI Pipeline](https://github.com/chef/community-summits/wiki/Seattle2015-CI-Pipeline)
 + [Community Cookbook Guidelines](https://github.com/chef/community-summits/wiki/Seattle2015-Community-Cookbook-Guidelines)
++ [Emerging Anti-Patterns](https://github.com/chef/community-summits/wiki/Seattle2015-Emerging-Anti-Patterns)
 + [Meeting Hacks](https://github.com/chef/community-summits/wiki/Seattle2015-Meeting-Hacks)
 
