@@ -36,3 +36,13 @@ Idea: Show top 5 slowest searches, resources, memory usage at the end of Chef ru
 Read Jon Cowie's book ( http://shop.oreilly.com/product/0636920032984.do ) for ways to add hooks to your Chef Client runs and get data about client resources.
 
 Chef Resource Reporter is just our implementation of a handler that batches up stats and sends them to analytics, reporting etc. https://github.com/chef/chef/blob/master/lib/chef/resource_reporter.rb
+
+chef-client --profile-ruby is post 12.5.1. Uses rubyprof. Deep Ruby profiling. Call graph.
+
+Can you turn RubyProf output into flame graphs?
+
+Ruby profiling during compile phase is needed
+
+Also per-resource profiling during converge phase is needed
+
+Why is Ruby memory using ballooning? This is because you aren't using targeted searches, or partial search.
