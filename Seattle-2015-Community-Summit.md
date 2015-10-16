@@ -7,6 +7,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Bento](https://github.com/chef/community-summits/wiki/Seattle2015-Bento)
 + [Building Community Behind the Firewall](https://github.com/chef/community-summits/wiki/Seattle2015-Building-Community-Behind-the-Firewall)
 + [Chef and Terraform](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-and-Terraform)
++ [Chef Client Performance Debugging](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-Client-Performance-Debugging)
 + [CI Pipeline](https://github.com/chef/community-summits/wiki/Seattle2015-CI-Pipeline)
 + [Community Cookbook Guidelines](https://github.com/chef/community-summits/wiki/Seattle2015-Community-Cookbook-Guidelines)
 + [Emerging Anti-Patterns](https://github.com/chef/community-summits/wiki/Seattle2015-Emerging-Anti-Patterns)
