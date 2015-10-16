@@ -33,23 +33,23 @@ Topic Proposer's current environment: jenkins used as a build tool, which sends 
 Topic Proposer wishes to discuss how to simplify the deployment process, while maintaining a GUI.
 
 Complexities: 
-    Tough to onboard a new employee due to the variety of tools used
++ Tough to onboard a new employee due to the variety of tools used
     
 Chef Delivery is proposed as a possible solution:
-    Defined delivery pipeline with automated testing
-    Code review gate waits for someone to approve the change
-    After approved, it goes through multiple test phases (Union, Rehearsal, Delivered)
++ Defined delivery pipeline with automated testing
++ Code review gate waits for someone to approve the change
++ After approved, it goes through multiple test phases (Union, Rehearsal, Delivered)
     
 What is "orchestration"? Not a single pipeline, tends to be a multi-step process involving disparate components.
 
 How orchestration is done by participants:
-    - "orchestration recipe" that relies on chef provisioning:
-        halt chef client, go node-by-node to do whatever work is necessary, turn chef client back on.
-    - custom resource that conditionally includes a recipe which blocks.
-      uses Serf under the covers to determine whether a node should block or not
-    - use tags to determine whether a run_list item should be included or not
-      tag includes the recipe to run, allows chef client to continue to run normally but include additional recipe when needed
-    - orchestration APIs: CFN, Eucalyptus, etc.
+- "orchestration recipe" that relies on chef provisioning:
+  + halt chef client, go node-by-node to do whatever work is necessary, turn chef client back on.
+- custom resource that conditionally includes a recipe which blocks.
+  + uses Serf under the covers to determine whether a node should block or not
+- use tags to determine whether a run_list item should be included or not
+  + tag includes the recipe to run, allows chef client to continue to run normally but include additional recipe when needed
+  - orchestration APIs: CFN, Eucalyptus, etc.
     
 Orchestration Issue: need to test a multi-node cluster, but timing of what nodes come up in what order, how long they wait before moving on, etc. is important.  It's been discussed in the past about writing a test kitchen driver.  Some participants use DSC resources, some use Rake - no real clean solution for this. What if the Chef Server could be used as the metadata store containing state about the each of the appropriate nodes, whether they're up or not, chef done or not, etc. to help orchestration these multi-node orchestrated deployments?
 
