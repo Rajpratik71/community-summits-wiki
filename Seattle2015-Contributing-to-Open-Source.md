@@ -81,6 +81,6 @@ Sort out today, hack day tomorrow.
 
 
 Actions
-    Robb Kidd - add references to legal books.
-    Add links to the contributing 
-    New to open source, advice for how to start
++ Robb Kidd - add references to legal books.
++ Add links to the contributing 
++ New to open source, advice for how to start
