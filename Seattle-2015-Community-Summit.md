@@ -8,4 +8,5 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Integration Testing](https://github.com/chef/community-summits/wiki/Seattle2015-Integration-Testing)
 + [Meeting Hacks](https://github.com/chef/community-summits/wiki/Seattle2015-Meeting-Hacks)
 + [Microsoft Platform + Chef](https://github.com/chef/community-summits/wiki/Seattle2015-Microsoft-Platform---Chef)
++ [Networking](https://github.com/chef/community-summits/wiki/Seattle2015-Networking)
 
