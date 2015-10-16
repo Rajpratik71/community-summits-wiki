@@ -20,6 +20,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Contributing to Open Source](https://github.com/chef/community-summits/wiki/Seattle2015-Contributing-to-Open-Source)
 + [Custom Resources](https://github.com/chef/community-summits/wiki/Seattle2015-Custom-Resources)
 + [Data Bags - Best Practices](https://github.com/chef/community-summits/wiki/Seattle2015-Data-Bags-Best-Practices)
++ [Databases](https://github.com/chef/community-summits/wiki/2015Seattle-Databases)
 + [Emerging Anti-Patterns](https://github.com/chef/community-summits/wiki/Seattle2015-Emerging-Anti-Patterns)
 + [Integration Testing](https://github.com/chef/community-summits/wiki/Seattle2015-Integration-Testing)
 + [Meeting Hacks](https://github.com/chef/community-summits/wiki/Seattle2015-Meeting-Hacks)
