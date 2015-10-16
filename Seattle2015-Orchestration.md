@@ -56,3 +56,108 @@ Orchestration Issue: need to test a multi-node cluster, but timing of what nodes
 If Chef were to write orchestration primitives, should those primitives be machine-to-machine type communication, or should the primitives be focused on a centralized controller handling the orchestration responsibilities?  Room seems to agree that the centralized controller is the right / safest option, but edge cases will dictate the need for both. +1
 
 "Can't do CD properly with the Chef Server cluster itself" - participant notes that upgrading Postgres in the chef server requires downtime, found it ironic that Chef advocates for continuous deployment but our upgrade processes are not seamless
+
+# Proposed by: Brian
+
+Should Chef be an orchestrator?
+  A desire to do this in one Chef run
+  Some work is being done with Chef Provisioning
+  Hashicorp Terraform as an alternative model
+
+Easy use case: Cloudera Hadoop with 11 Nodes
+  Ansible: Bring up node x before y, establish connections.
+  Able to create k,v store. Use the k,v store as a state storing semaphore system
+  Con: Introduces some communication between nodes, though now the nodes are no longer autonomous
+  Reported Case by deploying Riaak using the same method. Best way is using etcd
+
+Seemingly no angst agaist using mutiple tools. Best tool for the job?
+  Monitor as gating factor. Once a node is flagged to be a monitor. Monitoring system as flagging as the needed system as up.
+  Done in 2 chef runs.
+  Required a bit of planning
+
+Lots of distributed systems don't have config apis. Having them makes it easier for Chef to operate against it.
+
+Using cookbook blocks, this can cause hours of delay. Possible to get around this with push jobs.
+
+You also need to have good SLAs with your users.
++ Would love knife up x...magic!
++ You as the operator dictact to chef what you.it want.
+  + ie This vlan truncates here
+  + VM waits for its network till..it finds it.
+  + So lots of dependencies.
+  + Not immediate consistency....eventual consistency as things come up.
+
+Or the etcd model
+  + Canary nodes
+  + Separated what boxes are doing
+  + This requires quite a bit of scale, and knowing what you're doing
+  + This also has a bit of a cultural shift (managing expectations)
+
+Doing things "in order" vs "out of order".
+  + Out of order requires some robustness, but will lead to eventual consistency, and you don't need to worry about races.
+
+Back to the semaphore, k,v model.
+  + Other option is zookeeper-watch, but you're using a distributed system to make a distributed system.
+  + Zookeeper is great if everyone is behaving well
+  + Also exists an etcd cookbook.
+
+Don't think of the web server needs to discover the load balanacer....
+  + The load balancer needs to talk to the web server
+  + These things are allowed to talk to the other things...essentially the pull model.
+
+Other needs?
++ Needs to sequence nodes.
+  + Again, push jobs as a solution
+  + Another technique, short splay during provisioning phase. Once "done", increase it.
+  + Set an attr saying it's ready/done.
+  + Tagging things with attrs is a great way to know something is ready.
+    + So node does thing, add attr to that node
+  + Danger of lots of tag, attr cruft hanging around nodes.
+
++ Using attrs to keep state of various applications
+  + Not great to have dozens of apps, and have all these attrs hanging around. This is with 20k nodes.
+  + Possible solution:
+    + namespacing the attrs
+    + whitelist attrs. Best practice to do some whitelisting ohai to improve performance. 
+  + When provisioning...a broken chef run can leave things in a half state which may cause issues with idempotency.
+
+  + Anyone trying to do complex state with node saves...etc?
+    + With fine grained needs, something that runs every 30m by default may not be the best solution.
+    + A chef server you really depend on for state, better be really highly available. So this is why things like zookeeper. Some seem to run chef like zk.
+
+  + Another solution: Caneria cookbook (reference below)
+
+  + Back to the community:
+    + These sorts of solutions should be published. Yes it's embarassing but it's better than nothing and it's an idea to be built on.
+  + All these things change with scale:
+    + Some people try to solve their scale problems with "big company" scale solutions. These often aren't published, and the whole story isn't told, or it's completely overkill for you.
+    + Many scale solutions are somewhat custom.
+
+  + Newer generation k/v systems are much easier than the old ones.
+    + ie: Zookeeper is a PITA to deploy.
+    + Consul ()HashiCorp) and etcd are much easier
+
+    + One story of etcd, stability and split brain issues, but also feature rich.
+
+  + What's chef push?
+    + Basically knife ssh...doesn't scale
+    + Replacement using ØMQ.
+    + Whitelist of commands to run, so you can't run anything. It's just queued up ssh
+    + Uses your client key so you can do role based access as well.
+    + Jobs are logged to the chef server, instead of just console spill with ssh
+    + You could just do chef this way, just push "on demand" (yikes! don't do this all the time in prod!)
+    + Of course won't work with hosted chef.
+    + This came out one month after puppet mcollective was released.
+
+References:
++ https://github.com/chef/chef-provisioning
++ https://www.chef.io/blog/2014/11/12/chef-provisioning-infrastructure-as-code/
++ https://docs.chef.io/provisioning.html
++ https://github.com/ranjib/chef-etcd
++ http://onddo.github.io/chef-handler-zookeeper/
++ https://docs.chef.io/knife_tag.html
++ https://docs.chef.io/ohai.html
++ https://github.com/ryancragun/canaria-cookbook
++ https://github.com/coreos/etcd
++ https://www.consul.io/
++ https://docs.chef.io/push_jobs.html
