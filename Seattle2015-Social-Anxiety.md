@@ -32,7 +32,7 @@ There is a high degree of overlap between Autism Spectrum/Asperger's and Social 
 
 Also, learning about Mindfulness-Based Stress Reduction (MBSR) a/k/a Mindfulness Meditation can be helpful for many people. It can help teach you to be more aware and observant to yourself, and allows you to notice the negative feedback cycles and allow a chance to respond before social/mental triggers before a panic or crisis event occurs.
 
-** Resources/Links:
+## Resources/Links:
 + Developers and Depression - A weekly newsletter about mental health and tech by Greg Baugues http://devsanddepression.com
 + The World Needs All Kinds of Minds - Autism Spectrum Thinking Types (Visual, Pattern, Verbal) TED talk by Temple Grandin http://www.ted.com/talks/temple_grandin_the_world_needs_all_kinds_of_minds
 + Introduction to Mindfulness Meditation by Gil Fronsdal; 6 parts total, but the first part alone explains/clarifies a lot - http://www.audiodharma.org/series/1/talk/1762/
