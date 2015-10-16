@@ -4,11 +4,11 @@ Topic submitter:
 Stuart Preston (https://github.com/stuartpreston)
 
 Links:
-  https://github.com/chef/chef-provisioning
-  https://github.com/chef/chef-provisioning-azure (Azure Service Management driver for Chef Provisioning - machines/cloud services...)
-  https://github.com/pendrica/chef-provisioning-azurerm (Azure Resource Management driver for Chef Provisioning)
-  https://github.com/pendrica/kitchen-azurerm (Azure Resource Management driver for Test Kitchen)
-  https://github.com/Azure/azure-quickstart-templates/tree/master/chef-extension-windows-vm
+  + https://github.com/chef/chef-provisioning
+  + https://github.com/chef/chef-provisioning-azure (Azure Service Management driver for Chef Provisioning - machines/cloud services...)
+  + https://github.com/pendrica/chef-provisioning-azurerm (Azure Resource Management driver for Chef Provisioning)
+  + https://github.com/pendrica/kitchen-azurerm (Azure Resource Management driver for Test Kitchen)
+  + https://github.com/Azure/azure-quickstart-templates/tree/master/chef-extension-windows-vm
 
 Resource manager relies on Azure resource manager for idempotence.
 
