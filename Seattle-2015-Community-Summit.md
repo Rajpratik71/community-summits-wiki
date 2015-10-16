@@ -5,6 +5,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Application Deployment](https://github.com/chef/community-summits/wiki/Seattle2015-Application-Deployment)
 + [Ask Me Anything - Chef](https://github.com/chef/community-summits/wiki/Seattle2015-Ask-me-anything-Chef)
 + [Bento](https://github.com/chef/community-summits/wiki/Seattle2015-Bento)
++ [Building Community Behind the Firewall](https://github.com/chef/community-summits/wiki/Seattle2015-Building-Community-Behind-the-Firewall)
 + [Chef and Terraform](https://github.com/chef/community-summits/wiki/Seattle2015-Chef-and-Terraform)
 + [CI Pipeline](https://github.com/chef/community-summits/wiki/Seattle2015-CI-Pipeline)
 + [Community Cookbook Guidelines](https://github.com/chef/community-summits/wiki/Seattle2015-Community-Cookbook-Guidelines)
