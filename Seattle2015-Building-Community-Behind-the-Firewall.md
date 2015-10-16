@@ -67,7 +67,7 @@ Patterns and practices for building community.
    
 Building a community - basic needs, safe, listened to, good for culture.
 
-Six Strategies for Resolving Conflict:
+## Six Strategies for Resolving Conflict:
  1. Take a deep breath
  2. Ask a question
  3. Ask for help
