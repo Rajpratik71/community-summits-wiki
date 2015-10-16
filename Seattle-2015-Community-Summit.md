@@ -38,7 +38,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Social Anxiety](https://github.com/chef/community-summits/wiki/Seattle2015-Social-Anxiety)
 + [Supermarket](https://github.com/chef/community-summits/wiki/Seattle2015-Supermarket)
 + [Tool Sprawl](https://github.com/chef/community-summits/wiki/Seattle2015-Tool-Sprawl)
-+ [Ohai](https://github.com/chef/community-summits/wiki/Ohai)
++ [Ohai](https://github.com/chef/community-summits/wiki/Seattle2015-Ohai)
 + [Orchestration](https://github.com/chef/community-summits/wiki/Seattle2015-Orchestration)
 + [Versioning All the Things](https://github.com/chef/community-summits/wiki/Seattle2015-Versioning-All-the-Things)
 + [Windows](https://github.com/chef/community-summits/wiki/Seattle2015-Windows)
