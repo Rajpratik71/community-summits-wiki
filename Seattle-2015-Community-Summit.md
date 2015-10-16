@@ -30,6 +30,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Exotic Environments and OSs](https://github.com/chef/community-summits/wiki/Seattle2015-Exotic-Environments-and-OS)
 + [FreeBSD](https://github.com/chef/community-summits/wiki/Seattle2015-FreeBSD)
 + [Games](https://github.com/chef/community-summits/wiki/Seattle2015-Games)
++ [High Availability and Disaster Recovery](https://github.com/chef/community-summits/wiki/Seattle2015-High-Availability-and-Disaster-Recovery)
 + [Integration Testing](https://github.com/chef/community-summits/wiki/Seattle2015-Integration-Testing)
 + [Internal Chef Office Hours](https://github.com/chef/community-summits/wiki/Seattle2015-Internal-Chef-Office-Hours)
 + [Meeting Hacks](https://github.com/chef/community-summits/wiki/Seattle2015-Meeting-Hacks)
