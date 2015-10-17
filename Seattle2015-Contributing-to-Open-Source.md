@@ -1,9 +1,9 @@
 # Contributing to open source
 
-Topics - Advice/guidance to start contributing
-Balancing OS contribution when working for $company
+Topics:
 
-Jeff - open
++ Balancing OS contribution when working for $company
++ Advice/guidance to start contributing
 
 ## Balancing
 
@@ -29,58 +29,89 @@ Other side to technical debt, commit to support in some sense.  Coding in the op
 Doug - recommend Apache 2 License for Nordstrom stuff.  Brand protections that MIT and BSD don't offer.
 
 ## Getting Started
-How hard is it to contribute?  Slap a license on it and go - YOLO.  
-+ Types of contributions.
-+ Contribution - chef,
-+ OSS project
-+ Just publish on github - not recommended
+
+### Resources
+
++ Openhatch - project to match users with problems to be fixed
++ [Mozilla](https://developer.mozilla.org/en-US/docs/Introduction) - nice
+  contributor, expert to tell you what you can contribute to
++ Chef projects - labelled Easy  Can add tests.
++ [Your First PR](https://twitter.com/yourfirstpr): Twitter account "showcasing
+  great starter issues on GitHub."
++ [Digital Ocean's Hacktoberfest](https://hacktoberfest.digitalocean.com/): get
+  a nice t-shirt when you submit 4 PRs to open source projects at GitHub in the
+  month of October. They have a list of "featured projects" seeking help.
++ [Contributor Covenent](http://contributor-covenant.org/) - a project
+  encouraging community codes of conduct. There is a list of projects there that
+  have adopted the covenant to pledge to be welcoming communities.
++ (pending: resources with guidance for writing super-useful bug reports and
+  pull requests, "what to expect when you're contributing")
+
+### Types of Contributions
+
+#### Informational/Support
+
++ as a user of any experience with a project, providing quality problem reports
+  when things don't go as expected
++ as a user of almost any skill-level, spending time in a project's
+  communications channel(s)—e.g. IRC, mailing lists—and providing help to other
+  users having problems you may know how to solve (or at least help troubleshoot
+  to improve the quality of a problem report)
++ as a user of moderate+ skill, improving the quality of the documentation
++ get to know a project's community and culture before becoming too invested,
+  some are welcoming and some are emotionally brutal
+
+#### Bug Fixes or New Features to Existing projects
+
++ as a someone new to the project/ecosystem/language, submitting fixes for
+  issues the project has identified as easy for new folks
++ as skill and knowledge of a project's workings and roadmap increases,
+  submitting fixes for gnarlier bugs or adding new capabilities
++ **WARNING**: know your employer's policy on open source code contributions.
+  If you're submitting bug fixes on company time, does the company own the
+  copywrite? Forgiveness later can get hairy.
+
+#### Open Sourcing a Code Base of Your Own
+
+Put your code out there! You solved a problem other people might be having, too.
+Recommend you do so knowing some of the experiences of others when they have
+started projects. This is especially true for companies.
 
 Are you signing up to support something for life?
-+ Need to find successor.
-+ Depends if a community sprouts up
-+ Guilt - feels bad about tickets
-+ README - be clear about support level
-+ Chef vault - scary who supports it.  Added to chef-dk and the commitment is real. Responsibility feeling is real.
-+ Berkshelf - At Riot, folks left how does it get submitted.
-+ Not super awesome to just dump code?  You can read it, but having support and a community is better? But checking something compiles and generally works is sort of a minimum.
-+ Turn off pull requests if you won't take them.
-   
-How do you do open source in a big company?  There are issues.
-Are you working on something on company time does the company own it?
++ The ideal would be to find a successor when the time comes that you do not
+  want to provide support for a project.
++ A community sprouting up out the project can help spread support effort, but
+  can also be the _source_ of support requests. If a project takes off, it can
+  take up a lot of your time. You should _care_ about this problem you are
+  solving.
++ Be aware of guilt. It feels bad when you are faced with issues you don't have
+  time to do anything about.
++ Not _super_ awesome to just dump code.  You can read it, but having support
+  and a community is better. Checking something compiles and generally works is
+  sort of a minimum.
 
-Example of submit - fix small things to get started. 
-More to contributing to oss
-+ Hang on IRC
-+ Update doc
-+ Read the contributing to doc.
-+ Be aware of the community and where you are contributing
-+ The eco system can be brutal
-+ First contribution should not be to Linux Kernel - really nasty
-+ digitalocean   october hackfest
-+ ruby gems - 
-+ Openhatch - project to match users with problems to be fixed
-+ Code Triage - rage close issues if you want to
-+ Contributor convenent - community codes of context contributions
-+ Mozilla - nice contributor, expert to tell you what you can contribute to
-+ Chef projects - labelled Easy  Can add tests.
-+ Hang on IRC to fix things about questions.
-+ Doc contribution - could be a blog post
-+ Mozilla has a how to get started 
-   
-Fletcher - possibly a lot of time.
-Open source - only if care about it in a positive way.
-Decide how you want to govern something.  Is it mine only, can other folks commit, changes accepted.  Be clear with yourself.
+Some examples of projects where support/succession got fuzzy:
++ chef-vault: Came out of Nordstrom and was added as part of the Chef DK
+  toolset. The community supports it, but who makes decisions about roadmap?
+  Responsibility feeling is real.
++ Berkshelf - Came out of Riot Games, is a part of the core Chef toolset. Folks
+  left Riot. Who sets berks roadmap now?
 
+Some basics if you opt to create a public code repository:
++ [Read up on open source licensing](https://tldrlegal.com/verified) and put a
+  license on your code.
++ Manage expectations of others who discover your project in a README or
+  CONTRIBUTING document. Will you be supporting it or is this YOLO YMMV code? Do
+  you have a vision for the future that could go into the README or a ROADMAP
+  doc? Will you decline—thankfully!—pull requests that conflict with the vision?
++ In GitHub, turn off pull requests for your repo if you won't take them and
+  say that in the README.
 
+## Contributor License Agreements
 
 Why they exist?  CLA a layer on top of license, giving extra permissions.  Like the right to distribute without attribution.  Chef does not do copywrite assignment.  Some CLAs give up  the copywrite.  Patents can be a really big deal. Research and talk to lawyers.  Check your employee handbook.
 
-Sort out today, hack day tomorrow.
-
-
-
-
 Actions
-+ Robb Kidd - add references to legal books.
-+ Add links to the contributing 
++ Add references to legal advice around licensing.
++ Add links to the contributing
 + New to open source, advice for how to start
