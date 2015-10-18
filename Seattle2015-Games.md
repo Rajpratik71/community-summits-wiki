@@ -40,33 +40,26 @@ Imagine creating your own Cohen's Brothers movie like Fargo.
 
 
 ## Implementation
-
-Choose a time in the work schedule. This is important to fueling the culture of the team.
-Choose games that do not eliminate or hinder the player
-Include it in Standup that simply engage the individuals on your team 
-Have a champion that knows, leads and teaches the game
-Not all people need to play and may feel more comfortable watching the game
-Play a game a few times before moving on to the next game
-Schedule a few games but leave that open to more players
-Make the game playing when you hire new people to get to know them
-Play a game with the people you interview
-Be respectful of where you place the games and designated as the gaming space. It should be close to feed the culture but not so close that it distracts from the work (e.g. the ping pong table close to desks)
++ Choose a time in the work schedule. This is important to fueling the culture of the team.
++ Choose games that do not eliminate or hinder the player
++ Include it in Standup that simply engage the individuals on your team 
++ Have a champion that knows, leads and teaches the game
++ Not all people need to play and may feel more comfortable watching the game
++ Play a game a few times before moving on to the next game
++ Schedule a few games but leave that open to more players
++ Make the game playing when you hire new people to get to know them
++ Play a game with the people you interview
++ Be respectful of where you place the games and designated as the gaming space. It should be close to feed the culture but not so close that it distracts from the work (e.g. the ping pong table close to desks)
 
 
 ## Resources
-
-Jason Clifford's #gameops Talk from DevOps Minneapolis - https://www.youtube.com/watch?v=xHei-Pd8QDA 
-
-Jane McGonigal
-
-* http://janemcgonigal.com/
-* http://www.amazon.com/Jane-McGonigal/e/B003W4XJIG
-* http://fourhourworkweek.com/2015/07/28/jane-mcgonigal/
-
-http://www.innovationgames.com
-
-ballpoint - http://scrumology.com/from-the-archives-the-ball-point-game/
++ Jason Clifford's #gameops Talk from DevOps Minneapolis - https://www.youtube.com/watch?v=xHei-Pd8QDA 
++ Jane McGonigal
+  * http://janemcgonigal.com/
+  * http://www.amazon.com/Jane-McGonigal/e/B003W4XJIG
+  * http://fourhourworkweek.com/2015/07/28/jane-mcgonigal/
++ http://www.innovationgames.com
++ ballpoint - http://scrumology.com/from-the-archives-the-ball-point-game/
 
 What about when a team that is playing games fails to deliver on a milestone?
-
-Look at the team and not at the game.
++ Look at the team and not at the game.
