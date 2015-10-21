@@ -1,4 +1,4 @@
-Chef Client Performance Debugging - proposed by Mike Fiedler from DataDog
+Chef Client Performance Debugging - proposed by Mike Fiedler from Datadog
 
 Wednesday Oct 14th 1:30pm in Kirkland room
 
