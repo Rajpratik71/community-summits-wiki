@@ -54,3 +54,5 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Zap](https://github.com/chef/community-summits/wiki/Seattle2015-Zap)
 
 ## Hack Day Notes
+
+* [Justin Redd](https://github.com/justinredd) and [Franklin Webber](https://github.com/burtlo) copied over all the notes from the Etherpads to the Wiki.
