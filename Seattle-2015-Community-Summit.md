@@ -37,6 +37,7 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Internal Chef Office Hours](https://github.com/chef/community-summits/wiki/Seattle2015-Internal-Chef-Office-Hours)
 + [Meeting Hacks](https://github.com/chef/community-summits/wiki/Seattle2015-Meeting-Hacks)
 + [Microsoft Platform + Chef](https://github.com/chef/community-summits/wiki/Seattle2015-Microsoft-Platform---Chef)
++ [Microservices, Containers, and Chef](https://github.com/chef/community-summits/wiki/Microservices,-Containers,-and-Chef)
 + [Migrating From a Messy Chef Server to a CI/CD Pipeline](https://github.com/chef/community-summits/wiki/Seattle2015-Migrating-From-a-Messy-Chef-Server-to-a-CI-CD-Pipeline)
 + [Moving Chef Mailing List to Discourse](https://github.com/chef/community-summits/wiki/Seattle2015-Moving-Chef-Mailing-List-to-Discourse)
 + [Networking](https://github.com/chef/community-summits/wiki/Seattle2015-Networking)
