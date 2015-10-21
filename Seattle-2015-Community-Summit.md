@@ -52,4 +52,5 @@ Dates: Wednesday, October 14, 2015 - Thursday, October 15, 2015 Location: Seattl
 + [Versioning All the Things](https://github.com/chef/community-summits/wiki/Seattle2015-Versioning-All-the-Things)
 + [Windows](https://github.com/chef/community-summits/wiki/Seattle2015-Windows)
 + [Zap](https://github.com/chef/community-summits/wiki/Seattle2015-Zap)
+
 ## Hack Day Notes
