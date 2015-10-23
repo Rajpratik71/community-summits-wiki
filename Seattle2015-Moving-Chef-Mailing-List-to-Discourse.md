@@ -42,7 +42,7 @@ Are we going to add more "categories"?
 + There are "tags", but they don't interact like mailing lists
 
 ## Action Items:
-+ [Noah] Add how to subscribe/unsubscribe from categories and subcategories
++ ✔︎ [Noah] Add how to subscribe/unsubscribe from categories and subcategories
 + [Nathen] Write up "Discourse is not a mailing list and here's why and why that's OK"
 + ✔︎ [Robb] PR to chef-rfc to update mailing list linkage and new ML advocates
   + https://github.com/chef/chef-rfc/pull/152
