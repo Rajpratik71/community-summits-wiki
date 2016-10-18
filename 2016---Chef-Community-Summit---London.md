@@ -17,6 +17,6 @@
 * VMware and Chef
 * Migrate to Chef Automate
 * Chef on AWS
-* Habitat on Windows
+* [Habitat on Windows](Habitat-on-Windows)
 * [RFC Process](London-2016-RFC-Process)
 * [Cookbook CI RFC](London-2016-Cookbook-CI-RFC)
