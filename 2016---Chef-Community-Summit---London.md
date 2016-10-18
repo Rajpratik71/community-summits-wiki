@@ -1,19 +1,19 @@
-* Best Practices for Chef Upgrades:  https://e.chef.io/p/chef_upgrades
-* Chef and Containers: 
+* [Best Practices for Chef Upgrades](London-2016-Best-Practices-for-Chef-Upgrades)
+* Chef and Containers
 * Chef Vault and Secret Sharing: https://e.chef.io/p/2016LonChefSumVault
-* Chef And Windows: https://e.chef.io/p/2016-London-Chef-Windows
-* Habitat: https://e.chef.io/p/lon2016-hab
+* [Chef And Windows](London-2016-Chef-Windows)
+* [Habitat](London-2016-Habitat-and-Chef)
 
 * Policyfiles
 * ChefSpec Organisational tips and tricks:  https://e.chef.io/p/2016lon-summit-chefspec
-* CI/CD Pipelines: https://e.chef.io/p/lon2016-cicdpipeline
+* [CI/CD Pipelines](London-2016-CI-CD-Pipelines)
 * Regulated Environments
 * Chef Workstation:
 
 * Deprecation and Releases
-* All The Tools: https://e.chef.io/p/lon2016-all-the-tools
-* building an internal community discussion:  https://e.chef.io/p/London_Summit_16_-_Community
-* Scaling Chef Server:  https://e.chef.io/p/chef-server-scaling-issues
+* [All The Tools](London-2016-All-the-Tools)
+* [building an internal community discussion](London-2016-Building-Internal-Community)
+* [Scaling Chef Server](London-2016-Scaling-Chef-Server)
 * Push Model
 * Chef Certification
 
@@ -21,5 +21,5 @@
 * Migrate to Chef Automate
 * Chef on AWS
 * Habitat on Windows
-* RFC Process:  https://e.chef.io/p/2016-rfc-process
-* Cookbook CI RFC:  https://e.chef.io/p/2016LonCIRFC
+* [RFC Process](London-2016-RFC-Process)
+* [Cookbook CI RFC](London-2016-Cookbook-CI-RFC)
