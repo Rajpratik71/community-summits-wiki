@@ -1,1 +1,1 @@
-Links to open space discussions from Seattle 2017.
+Links to open space discussions from NYC 2017.
