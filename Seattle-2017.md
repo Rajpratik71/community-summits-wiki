@@ -25,3 +25,4 @@ Links to open space discussions from Seattle 2017.
 #### Session 4: 3:30 - 4:30 PM
 
 * [Habitat + Inspec](Habitat-and-inspec)
+* [Cookbook Quality Improvement](Cookbook-quality-improvement)
