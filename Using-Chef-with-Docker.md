@@ -1,4 +1,4 @@
-Chef + Docker: How to use Chef and Docker together?
+*Chef + Docker: How to use Chef and Docker together?*
 
 - For testing with in the community team we using Docken to test with test kitchen.
 
@@ -29,3 +29,13 @@ Chef + Docker: How to use Chef and Docker together?
 - This is the sweetspot to why Habitat was created. Baking an OS image is a really good pattern with config management, as there are configs that you want for your app. When you bake a docker container, it's focused on that application, it follows a different paradime than baking an OS image.
 
 - If you it have already working, and you need the shortest step to create to image - you may need to rethink how this work is done. Again, Habitat.
+
+-- Explain Habitat for me.
+
+- Once you defined what your build looks like in Habitat, you create an artifact. You start with your app code, you compile it down, and you end up with an artifact, so that artifact can be run as a container somewhere. 
+
+-- So it works for both baremetal and containers? hybrid?
+
+- Your app when you build it, you can say "it needs a DB to start", when Habitat launches the app service it looks around the ring looking for that DB. You can run a demo env that are all docker containers on your laptop. 
+
+- When you are no longer trying to package your applications as cookbooks. Chef is really good at, 
