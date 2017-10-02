@@ -4,4 +4,4 @@ Links to open space discussions from Seattle 2017.
 
 [Chef for Networking Devices](Chef-for-Networking-Devices)
 
-[Test Kitchen + InSpec] (Test-kitchen---InSpec)
+[Test Kitchen + InSpec](https://github.com/chef/community-summits/wiki/Test-kitchen---InSpec)
