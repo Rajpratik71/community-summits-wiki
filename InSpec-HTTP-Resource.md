@@ -8,5 +8,18 @@
 
 - Let's push a remote http 1.0, make sure it works. What we need to expose: status code, headers as a hash and the content. We can expand to HTTPS, with disabled SSL cert.
 
+ADAM LEFF HAS VOLUNTEERED TO FIX HTTP RESOURCE DURING HACK DAY.
+
+-- A ChefDK generator to spit out resource/profiles would be nice and easier. The documentation for a custom resource for a cookbook is not good. We need better docs, for example yml file for InSpec, I was confused what the minimal amount of info needed.
+
+- The resolve check for the InSpec plugin is "is there a inspec.yml file". The yml triggers all the checks for libraries, controls..syntax..etc.
+
+-- The debug error handling goes into RSpec currently. Huge pain, but we don't have the time to fix this.
+
+(Adam Leff is refactoring the CLI formatter and the JSON formatter, to allow expect syntax.)
+
+- Conversion guide? for example: for should_be and expect syntax. 
+
+
 
 
