@@ -16,6 +16,7 @@ Links to open space discussions from Seattle 2017.
 
 #### Session 3:  2:30 - 3:30 PM
 
+* [Managing workstations with Chef](Managing-workstations-with-Chef)
 * Future of Test Kitchen
 * Building Image Pipelines
 * Chef for employee devices & macOS
