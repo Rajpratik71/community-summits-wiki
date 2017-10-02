@@ -71,4 +71,16 @@
 -- Yeah. so for a new pipeline, are you just scripting this out?
 
 - Habitat has determinisitic build system, interface is similar to bash. You define what you need at build time and then create an artifact - you can just use a standard CI, you can just do the build in the CI. We have a build service is coming, if you have github repo and inside the repo you have a plan.sh, you can tell the build service is "this is a Sass offering" - based on the dependencies in the package, it'll grab that and build, and then build up the app into a docker container.
+
+- When you dive in to Habitat, you'll see hab studio. This is what you would put into your build pipeline.
+
+-- I have server and app, where does Chef end and Habitat starts?
+
+- Chef infra automation, Habitat app automate. Define the packages and provision with any config mgmt tool you want. Habitat does nothing with infrastructure automation.
+
+- Habitat package does not use your OS library. If you need to patch OpenSSL, that happens in the plan.sh.  We have 2 update strategies, all at once choreographed, and then a rolling update strategy. Leader, follower topology. It's not a 100% garaunteed right now, if it starts up then we mark as green(good).
+
+- Is there communication between Chef and Habitat so you can query the Chef run?
+
+- Habitat has an API to query, global state. you can hit both of the API endpoints.
  
