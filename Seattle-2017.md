@@ -1,6 +1,6 @@
 Links to open space discussions from Seattle 2017.
 
-### Session 1: 11:30AM - 12:30PM
+#### Session 1: 11:30AM - 12:30PM
 
 * [Test Kitchen + InSpec](https://github.com/chef/community-summits/wiki/Test-kitchen---InSpec)
 * [Chef for Networking Devices](Chef-for-Networking-Devices)
@@ -21,3 +21,7 @@ Links to open space discussions from Seattle 2017.
 * Building Image Pipelines
 * Chef for employee devices & macOS
 * [Habitat Core Plan Maintenance](Habitat-Core-Plan-Maintenance)
+
+#### Session 4: 3:30 - 4:30 PM
+
+* Habitat + Inspec
