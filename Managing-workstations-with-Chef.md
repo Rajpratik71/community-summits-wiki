@@ -53,4 +53,6 @@
 -- the Chef Client validates certs like SSL by default.
 
 - The custom resource DSL is what you should be doing.
+
+Hey, join this slack: https://macadmins.herokuapp.com/ There's a Chef channel where folks are discussing workstation management with Chef.
  
