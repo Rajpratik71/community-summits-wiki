@@ -24,6 +24,6 @@ ADAM LEFF HAS VOLUNTEERED TO FIX HTTP RESOURCE DURING HACK DAY.
 
 HANNAH WILL TAKE THIS ON IN DOCS FOR HACK DAY
 
-
+-- We need better kitchen-inspec docs, both in both places.
 
 
