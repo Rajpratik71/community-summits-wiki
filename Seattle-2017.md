@@ -2,6 +2,12 @@ Links to open space discussions from Seattle 2017.
 
 ### Session 1: 11:30AM - 12:30PM
 
-[Chef for Networking Devices](Chef-for-Networking-Devices)
+* [Test Kitchen + InSpec](https://github.com/chef/community-summits/wiki/Test-kitchen---InSpec)
+* [Chef for Networking Devices](Chef-for-Networking-Devices)
+* Secrets Management
+* [Chef with Docker](Using-Chef-with-Docker)
 
-[Test Kitchen + InSpec](https://github.com/chef/community-summits/wiki/Test-kitchen---InSpec)
+#### Session 2:  1:30 - 2:30 PM
+
+
+
