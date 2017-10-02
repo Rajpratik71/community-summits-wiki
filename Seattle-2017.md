@@ -19,4 +19,4 @@ Links to open space discussions from Seattle 2017.
 * Future of Test Kitchen
 * Building Image Pipelines
 * Chef for employee devices & macOS
-* Core Habitat plans
+* [Habitat Core Plan Maintenance](Habitat Core Plan Maintenance)
