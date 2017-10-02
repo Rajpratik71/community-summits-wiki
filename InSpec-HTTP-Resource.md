@@ -18,7 +18,11 @@ ADAM LEFF HAS VOLUNTEERED TO FIX HTTP RESOURCE DURING HACK DAY.
 
 (Adam Leff is refactoring the CLI formatter and the JSON formatter, to allow expect syntax.)
 
-- Conversion guide? for example: for should_be and expect syntax. 
+- Conversion guide? for example: should_be(compliance auditors) == expect(Integration testers) syntax. 
+
+-- I like serverspec format in the docs, remove all the matchers crap in the resource page. 
+
+HANNAH WILL TAKE THIS ON IN DOCS FOR HACK DAY
 
 
 
