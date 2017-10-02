@@ -11,7 +11,7 @@ Links to open space discussions from Seattle 2017.
 
 * What's next for Chef
 * Chef & Terraform
-* Airgap Environments
+* [Airgap Environments](https://github.com/chef/community-summits/wiki/Airgap-Environments)
 * [InSpec http resources](InSpec-HTTP-Resource)
 
 #### Session 3:  2:30 - 3:30 PM
