@@ -38,4 +38,37 @@
 
 - Your app when you build it, you can say "it needs a DB to start", when Habitat launches the app service it looks around the ring looking for that DB. You can run a demo env that are all docker containers on your laptop. 
 
-- When you are no longer trying to package your applications as cookbooks. Chef is really good at, 
+- All the apps that get built out there, there is no standarization. Chef is awesome, the apps don't all think of states in a standarized why.
+
+- and..you don't want app engs to all learn Chef, even deployment. I like the Habitat, package the app in a way that you would package anywhere. There are many different ways to deploy apps. 
+
+-- Maybe it's not about Chef + Docker. 
+
+- Habitat is not a scheduler. You'll need to figure out how to use a scheduler in this containerized world. You want something to be more dynamic. It goes against what Josh said, you have a single unified interface, the containers can be managed the same way - in the habitat way you can't be worried about the infra in that way.
+
+- The scheduler is about workload placement. When I think about a workload that doesn't fit in a reg scheduler, they are tightly coupled to the gear (ie: your DB) - when you have a significant about traffic/load going into that thing, how often do you want it to be provisioned and rescheduled? You barely re-provision (in prod) as you need it to be static by design. The question is, what if I don't want to use containers, but the scheduling is containerized?
+
+-- That infra piece that are designed to be static are not a candidate for containers. When you need to redeploy/reconfigure in a streamlined way.
+
+- The diff between Habitat and Chef, Chef you build abstractions for all knobs, gear that needs to be provisioned...
+
+-- so the answer is...look at Habitat? and Chef needs to figure out how to train the devops community.
+
+- yes. When it's on the app side, habitat less code, abstraction makes more sense, installing a package + service but not dealing with configuration.
+
+- Habitat guides you away from :( ways to do config. In your docker file you have to start from scratch :(. There's not a lot of visibility of what's inside of your package. You have a kernel, in your docker file you have to state what to install and built.
+
+-- ...and then you end up with this large container...because you want to built and remove it because ultimately you just want the app.
+
+- If you're running containers in prod - they have like a container in prod. When you have scheduler on top of this, you have schedules distributed all across your infra - no visibility, hard to manage. 
+
+- You have visibility into the build service with Habitat. Cool stuff around automated rebuilding too.
+
+-- What's the learning curve like? (Habitat)
+
+- Do you know bash?
+
+-- Yeah. so for a new pipeline, are you just scripting this out?
+
+- Habitat has determinisitic build system, interface is similar to bash. You define what you need at build time and then create an artifact - you can just use a standard CI, you can just do the build in the CI. We have a build service is coming, if you have github repo and inside the repo you have a plan.sh, you can tell the build service is "this is a Sass offering" - based on the dependencies in the package, it'll grab that and build, and then build up the app into a docker container.
+ 
