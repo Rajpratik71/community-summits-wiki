@@ -1,0 +1,58 @@
+Topic opened with the statements 
+  - "there are three or four ways to do test kitchen and InSpec, What is blessed path?"
+  - How do I bring someone into the space?
+  - Can't share controls across test suites?
+
+  
+    1) (default) recipe based test - test/integration/$suite/$suite_spec.rb
+        (Inspec Profile) `inspec_tests`
+        
+    2) (reccomended for new users, and by ChefDK)
+        `inspec_tests` in `.kitchen.yml` (default in ChefDK)
+          - profile
+          - dir
+          - git source
+          - supermarket profile
+
+          Aaron Kain (@martinsoft) committed to writing a blog post about moving from 1 to 2, Chef folk will assist with syndication
+
+    3) future is likely to NOT be based on rspec
+
+      Action items: 
+        - We should align documentation!
+          - kitchen-inspec Readme
+        - Pros/cons of approaches (blog post possibly?)
+        - document Profiles/libraries
+          usage
+        - test output
+          - control examples & pros
+          - junit docs (Jenkins pipeline)
+        - more usable examples
+        - ChefDK generate a profile vs. a "naked test"
+        - InSpec practical experiences with a "broken" VM as a tutorial SUPER IMPORTANT
+        - migration paths
+          i.e. serverspsec --> inspec
+               kitchen.ci docs
+        - Dash export of documentation
+            - inspec
+            - kitchen
+            - PR opened! https://github.com/chef/chef-web-docs/issues/984
+        - kitchen.ci as top level document aggregation
+
+        - Open a Github issue and Adam Leff will help shepard the change
+
+      4) In profiles, you can use DSL keyword "attribute"
+        - accepted via YAML
+        - Can pass a hash of attributes (can include default)
+        - Can use `only_if`
+        - future direction to possibly be supportive of other secrets back ends (Hashicorps vault etc.)
+          - several thumbs up from people in the room
+         
+    Please, please please help us expose bugs by raising awareness and telling Chef!
+    
+    Busser - was the kitchen equivalent of InSpec prior to InSpec
+      - do we deprecate? do we phase out?
+      - We'd love to see you move to the new hotness, not going anywhere anytime soon
+
+    
+  
