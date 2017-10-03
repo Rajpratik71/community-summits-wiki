@@ -4,7 +4,7 @@ Links to open space discussions from Seattle 2017.
 
 * [Test Kitchen + InSpec](https://github.com/chef/community-summits/wiki/Test-kitchen---InSpec)
 * [Chef for Networking Devices](Chef-for-Networking-Devices)
-* Secrets Management
+* [Secrets Management] (Secrets Management)
 * [Chef with Docker](Using-Chef-with-Docker)
 
 #### Session 2:  1:30 - 2:30 PM
