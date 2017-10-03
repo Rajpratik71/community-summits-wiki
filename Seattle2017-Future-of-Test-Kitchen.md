@@ -25,7 +25,7 @@ Providers we don't know how much are used (tier2):
 - digital ocean
 - docker
 - openstack
-- proxy
+- proxy (note: used for testing all the windows cookbooks on appveyor - smurawski)
 - terraform (?)
 
 ## Kitchen Roadmap
