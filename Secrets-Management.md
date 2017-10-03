@@ -2,10 +2,10 @@
 Current Best Practice/Model is to use [HashiCorp Vault](https://www.vaultproject.io/)
 
 Other Options/Ideas:
-* Chef Vault - Created by Nordstrom has problems searching
-* AWS Parameter Store & KMS - 
-* AWS S3 - 
-* K8s Secrets - 
+* [Chef Vault](https://docs.chef.io/chef_vault.html) - Created by Nordstrom has problems searching
+* AWS [Parameter Store](https://aws.amazon.com/ec2/systems-manager/parameter-store/) & [KMS](https://aws.amazon.com/kms/) - 
+* AWS [S3](https://aws.amazon.com/s3/) - 
+* [Kubernetes Secrets](https://kubernetes.io/docs/concepts/configuration/secret/Q) - 
 * [EnvKey](https://www.envkey.com/) - 
 * gpg encrypted secrets - 
 * [BLESS](https://github.com/Netflix/bless) (Bastion's Lambda Ephemeral SSH Service) - Promising release from Netflix (AWS Only)
