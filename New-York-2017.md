@@ -3,7 +3,7 @@ Links to open space discussions from NYC 2017.
 #### Session 1: 11:30AM - 12:30PM
 
 * InSpec & Habitat
-* Multiple Policyfiles
+* [Multiple Policyfiles](NYC2017--Policyfile-Inheritance)
 * [War Stories](War-Stories)
 * [The future of Test Kitchen](Seattle2017-Future-of-Test-Kitchen)
 
