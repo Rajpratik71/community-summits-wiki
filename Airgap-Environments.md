@@ -52,3 +52,12 @@ Q: Where is there opposition to using Omnibus?
 * When customers choose to repackage chef with omnibus it eliminates visibility into the build from Chef's perspective. Harder to support.
 * Some vendors need to be walled off from where chef typically gets installed to, requiring the need to control that installation location and customizing omnibus. 
 * Maybe we can find a better way to simplify the installation, exposing those configuration points? Can we make the experience better for the customers?
+
+Addendum from New York Summit
+
+* sharing custom cookbook generator
+    * https://jjasghar.github.io/blog/2017/08/08/using-the-cookbook-generator-as-soon-as-possible/
+    
+* can we make it easier to generate bootstrap scripts that work better in airgapped environments?
+    * https://docs.chef.io/install_chef_air_gap.html
+    * e.g. tweaking custom rubygems for your knife bootstrap https://docs.chef.io/install_chef_air_gap.html#create-a-bootstrap-template
