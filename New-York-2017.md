@@ -12,7 +12,7 @@ Links to open space discussions from NYC 2017.
 * Dev Environment - studio
 * Facilitate learning & adoption by new users
 * InSpec for more cloud vendors
-* [Bootstrapping SSL Trust](NYC2017-SSL-Trust-and-Chef.md)
+* [Bootstrapping SSL Trust](NYC2017-SSL-Trust-and-Chef)
 
 #### Session 3:  2:30PM - 3:30PM
 
