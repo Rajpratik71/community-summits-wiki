@@ -3,7 +3,7 @@
 * Chef Vault and Secret Sharing: https://e.chef.io/p/2016LonChefSumVault
 * [Chef And Windows](London-2016-Chef-Windows)
 * [Habitat](London-2016-Habitat-and-Chef)
-* Policyfiles
+* [Policyfiles](London-2016-PolicyFiles)
 * ChefSpec Organisational tips and tricks:  https://e.chef.io/p/2016lon-summit-chefspec
 * [CI/CD Pipelines](London-2016-CI-CD-Pipelines)
 * Regulated Environments
