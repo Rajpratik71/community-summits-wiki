@@ -49,6 +49,6 @@ A benefit of using a policy files is the run-list within policy files can be nam
 
 At present you can only define a single policy file for a node
 
-There is a multiple policy RFC (75) which defines the scenario of being able to run multiple policy files.  These will include being able , local file, git repo, specific policy from a chef server.   
+There is a multiple policy [RFC75](https://github.com/chef/chef-rfc/blob/master/rfc075-multi-policy.md) which defines the scenario of being able to run multiple policy files.  These will include being able , local file, git repo, specific policy from a chef server.   
 
-This will be discussed on Thursday on the community slack #developer channel 17:00PM UK please come along, review Jon’s RP associated with the RFC and add your suggestions and thoughts.
+This will be discussed on Thursday on the community slack #developer channel 17:00PM UK please come along, review Jon’s [PR](https://github.com/chef/chef-rfc/pull/280) associated with the RFC and add your suggestions and thoughts.
