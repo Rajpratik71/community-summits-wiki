@@ -6,7 +6,7 @@ Links to open space discussions from London 2017.
 * Cookbook Quality Metrics
 * Habitat Hack
 * [Visualizing InSpec data](ispec-data-from-other-sources)
-* [Policyfiles](London-2016-PolicyFiles)
+* [Policyfiles](London-2017-PolicyFiles)
 
 #### Session 2: 15:45 - 16:45
 
