@@ -27,7 +27,7 @@ Limited support with chef manage, literally it might just say that a policy has 
 
 ### Q .  Where to start?
 As a suggestion ….. Write a policyfile around a single cookbook, export your environment data and map that into your policy file, define a run list and use `chef policy` command, export a tarball apply it to your kitchen instance.
-There are some Pinned posts on the policyfiles community slack channel – there are also some  some good blogposts by Micheal (Hedgeops)  on how they implemented policyfiles within NCR.
+There are some Pinned posts on the policyfiles community slack channel – there are also some some good blogposts by [Michael Hedgpeth](http://hedge-ops.com/) on how they implemented policyfiles within NCR.
 
 
 ### Q. Testing your policyfiles
