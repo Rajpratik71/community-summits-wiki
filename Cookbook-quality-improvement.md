@@ -23,3 +23,5 @@
   * Also they should have a test cookbook that consumes that cookbook
   * Should the ChefDK generate these? What about a community generator?
 * Supermarket could add a "I use this" type +1 to a cookbook to endorse it as a metric
+
+See also the [Cookbook Quality Metrics notes from the London Summit](Cookbook-Quality-Metrics).
