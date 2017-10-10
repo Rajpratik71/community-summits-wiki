@@ -47,6 +47,7 @@ A benefit of using a policy files is the run-list within policy files can be nam
 
 ## Multiple Policy Files
 
+At present you can only define a single policy file for a node
 
 There is a multiple policy RFC (75) which defines the scenario of being able to run multiple policy files.  These will include being able , local file, git repo, specific policy from a chef server.   
 
