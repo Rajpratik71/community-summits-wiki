@@ -20,6 +20,6 @@ Links to open space discussions from London 2017.
 
 ## Day Two
 
-#### Session 1: 14:15 - 15:15
+#### Session 1: 13:45 - 14:45
 
-#### Session 2: 15:45 - 16:45
+#### Session 2: 15:15 - 16:15
