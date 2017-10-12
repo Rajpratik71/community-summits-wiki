@@ -2,11 +2,11 @@
 
 #### In Attendance
 
-Niu Solutions ltd
-Oracle
-Danske Bank
-SAP
-Barclays
+ * Niu Solutions ltd
+ * Oracle
+ * Danske Bank
+ * SAP
+ * Barclays
 
 #### Synopsis
 
