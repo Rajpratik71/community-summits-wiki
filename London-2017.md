@@ -22,4 +22,8 @@ Links to open space discussions from London 2017.
 
 #### Session 1: 13:45 - 14:45
 
+* [Chef's REST APIs Use Cases and Challenges](London-2017-ChefRESTAPIs)
+
 #### Session 2: 15:15 - 16:15
+
+* [Network Device Management](London-2017-NetworkDeviceManagement)
