@@ -23,6 +23,7 @@ Links to open space discussions from London 2017.
 #### Session 1: 13:45 - 14:45
 
 * [Chef's REST APIs Use Cases and Challenges](London-2017-ChefRESTAPIs)
+* [Chef Software AMA](London-2017-Chef-Software-AMA)
 
 #### Session 2: 15:15 - 16:15
 
