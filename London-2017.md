@@ -28,3 +28,4 @@ Links to open space discussions from London 2017.
 #### Session 2: 15:15 - 16:15
 
 * [Network Device Management](London-2017-NetworkDeviceManagement)
+* [Inspec Profiles in(stead of) Restrictive Cookbooks](London-2017-InspecNotCookbooks)
