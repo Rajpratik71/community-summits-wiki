@@ -37,3 +37,10 @@ Dom - vice versa?
 Markus - no. one is enough.
 
 Here in Germany, EMRs are printed out at your doctor and if you change doctors they're sent by mail. So that is the status quo and the environment you need to think of.
+
+10TB of genome data generated per day from Illumina machines that basically take photos of people, etc. from US. they run Windows 7 ... ok a bit outdated, but we must test that certain things are on those machines, and some things are not on those machines. we wanted to put certain things on these machines like Nagios agents, etc. and normally this voids your warranty but we have enough good customers that they allowed us.
+
+Dom - can you manage these machines by installing s/w on them?
+Markus - yes but we try not to.
+Dom - and you can do this remotely?
+Markus - we are starting to install RDP. so that we don't have to go to the lab because you know, it's a clean room, etc.
