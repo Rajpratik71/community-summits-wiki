@@ -1,1 +1,2 @@
-[Upgrading Chef](https://github.com/chef/community-summits/wiki/Berlin-2018-Upgrading-Chef)
+* [Upgrading Chef](https://github.com/chef/community-summits/wiki/Berlin-2018-Upgrading-Chef)
+* [Testing Chef Cookbooks](https://github.com/chef/community-summits/wiki/Berlin-2018-Testing-Chef-Cookbooks)
