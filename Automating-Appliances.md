@@ -1,0 +1,51 @@
+# notes: automating appliances
+
+- network devices: brocade (happen to run linux, but...)
+- often `ssh ip command`
+- SSH can get you into some hypervisor, not the right context
+- there sometimes is SSH but hardware vendors are dreadful
+- root voids warantees
+  - might depend on the vendor
+- are there forms of procedures for chef to work together with vendors that would allow to put chef on their applicances?
+  - partnered with cisco before: put chef client on it
+    - they wrote a cookbook for resources
+  - some amount of work: how does chef get onto those machines? needs enough market interest
+    - hard to judge market interest for something that doesn't exist
+- more interesting: remote management
+  - netops want stuff that looks like ansible (rancid)
+- concrete examples: cisco, brocade, ...
+  - all work with SSH
+  - SSH from a cookbook
+- what do network admins want?
+  - what's the ideal workflow? flexible abstractions are missing so much
+- terraform seems like an approachable platform for these kinds of things -- remote_exec
+- ultimate question: what is it supposed to look like?
+  - "push commands, capture results", sure, but at what level of abstraction should the interaction happen?
+- is similar to the discussion of _what cfg mgmt is_
+  - we have containers now, but there's also switches: pieces of hardware you _cannot screw up_
+- "x has a desired state" might not be how people think about that
+  - thus: terraform -- always know what happens next; never have to guess
+- narrow down scope: such a broad field (vlans, many device types, ...)
+  - do one kind of firewall only first; segment the market
+    - start with the easiest; not the nichy decade-old legacy box
+- compare maslow: what's the most important thing in network dev mgmt: don't mess it up
+  - most important thing with app deployment: get thing into production as fast as possible
+  - "never touch a running system" has changed
+- _desired state_ in a structured, machine-readable way would enable you to pose assertions on that: am I able to connect after I've applied this?
+  - the language is there, it's just bad: pages of status output, not nice to work with
+  - cisco has simulators to test stuff, but they're difficult to work with; not a smooth process
+  - terraform could give simulate dependencies between changes to resources, too
+    - all API based; not necessarily that assertion stuff ^
+    - doesn't know enough to say "data still flows between these two nodes" (it should have all the data)
+  - inspec could pull off some of that: "does jenkins only listen on private interfaces?"
+- related, and terraform doesn't let you do that: having inspec infrastructure-aware: check VPC, security groups
+- core question for chef: should we do something with infrastructure that is not compute? if so, how?
+  - is there something we could do for specific network appliances? maybe -- need to understand what people want
+  - which switches should we care about?
+  - arista supports chef-client
+    - it was never the sysadmins operating the switches; and the people who did sticked to the tools they were used to
+- idea: let TK do network simulations, and then run inspec against those
+- HP story: how did that story evolve? there's a partnership...
+  - Synergy platform: if you're running your own datacenter, they give you basic stuff: SSDs, memory, ... and you use software to separate that into what you need, for different workloads
+    - as much of a cloud-like experience as you can get in a box
+- it seems there might be more of those discussions around inspec than chef itself
