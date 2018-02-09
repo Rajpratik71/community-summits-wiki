@@ -27,3 +27,13 @@ Chris - yes, JSON and CSV
 
 Dom - what exporter are you looking for? because you made this noise...
 Markus - HTML or PDF. and non-technical.
+
+HIPAA care more about lab environments, not care about processing part.
+some other auditors care more about processing.
+
+Dom - if you get an HTML would you still want the PDF?
+Markus - no.
+Dom - vice versa?
+Markus - no. one is enough.
+
+Here in Germany, EMRs are printed out at your doctor and if you change doctors they're sent by mail. So that is the status quo and the environment you need to think of.
