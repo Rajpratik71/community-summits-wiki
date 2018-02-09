@@ -44,3 +44,6 @@ Dom - can you manage these machines by installing s/w on them?
 Markus - yes but we try not to.
 Dom - and you can do this remotely?
 Markus - we are starting to install RDP. so that we don't have to go to the lab because you know, it's a clean room, etc.
+
+Chris - are you already running reports? how do you do it?
+Markus - yeah we do it via Jenkins - using JUnit XML integration from InSpec.
