@@ -47,3 +47,11 @@ Markus - we are starting to install RDP. so that we don't have to go to the lab 
 
 Chris - are you already running reports? how do you do it?
 Markus - yeah we do it via Jenkins - using JUnit XML integration from InSpec.
+
+(Markus gets on his VPN and shows us his Jenkins setup)
+
+Markus - ok I like the idea of Chef automate but I can't consume those reports until I can show an auditor. What can I do now?
+
+(Chris & Dom talk about working on a feature)
+
+I found https://github.com/vbanthia/rspec_html_reporter which helps you make nicer RSpec reports.
