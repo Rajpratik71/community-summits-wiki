@@ -17,3 +17,13 @@ Markus - what I would like is to run these daily tests that is the snapshot of s
 
 It would be nice for the report to have our logo on top, the date.
 (Chris shows off Chef Automate node report)
+Markus - this is great but it can't be a website. Also it's too technical for these guys/girls (auditors).
+Chris - but it's a technical test. (more demo)
+
+Markus - there won't be levels of criticality for us. it's black or white. so thus it's too much info for their needs. the base assumption is that everything is fine otherwise they will come to visit us :-)
+
+Markus - you mentioned this is exportable in some way
+Chris - yes, JSON and CSV
+
+Dom - what exporter are you looking for? because you made this noise...
+Markus - HTML or PDF. and non-technical.
