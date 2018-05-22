@@ -12,14 +12,14 @@ big room: chef advocate in large orgs
 
 Session 3: 1:30 to 2:30 
 Big room: all things chef/automate server 
-A: AMA
-B: using ansible with chef for orchestration & orchestration across nodes
-C: test kitchen all the things
-D: migrating to habitat
+* A: AMA
+* B: using ansible with chef for orchestration & orchestration across nodes
+* C: test kitchen all the things
+* D: migrating to habitat
 
 Session 4: 2:30 to 3:30
 Big room: chef on laptops / macOS 
-A: managing cookbooks across multiple environments
-B: chef log aggregation for analytics 
-C: better testing of cookbooks
-D: AMA habitat
+* A: managing cookbooks across multiple environments
+* B: chef log aggregation for analytics 
+* C: better testing of cookbooks
+* D: AMA habitat
