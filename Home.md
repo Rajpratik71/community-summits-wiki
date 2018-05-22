@@ -3,6 +3,8 @@
 ## 2018
 
   * [Berlin](Berlin-2018)
+  * [Chicago](Chicago-2018)
+
 
 ## 2017
   * [Seattle](Seattle-2017)
