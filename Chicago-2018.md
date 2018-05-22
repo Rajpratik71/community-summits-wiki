@@ -5,7 +5,7 @@ Session 1
 
 Session 2: 11:55 to 12:30
 big room: chef advocate in large orgs
-* A: terraform and automate 
+* A: [terraform and automate](2A-Terraform-and-Automate) 
 * B: chef compliance
 * C: getting off older versions of Windows. 
 * D: using habitat in k8s
