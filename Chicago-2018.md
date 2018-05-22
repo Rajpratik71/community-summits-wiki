@@ -1,6 +1,7 @@
 [Notes on Taking Note](https://github.com/chef/community-summits#taking-note)
 
 Session 1
+ * A - [Getting into Open Source](1A-OpenSource)
  * B - [Inspec AMA, Extending InSpec, and CIS and STIG profiles](1B-InSpec)
 
 Session 2: 11:55 to 12:30
