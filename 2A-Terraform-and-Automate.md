@@ -1,0 +1,1 @@
+Managing de-provisioning through an AWS Lambda. [AWS Labs example code](https://github.com/awslabs/lambda-chef-node-cleanup). Can be pretty easily modified to use Paramiko to ssh into Automate or Winrm to connect to a Windows AD and run whatever command to cleanup objects. I'll see if I can sanitize my fork of the example code to cleanup and make it public.
