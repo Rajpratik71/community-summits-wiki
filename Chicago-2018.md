@@ -22,6 +22,6 @@ Big room: all things chef/automate server
 Session 4: 2:30 to 3:30
 Big room: chef on laptops / macOS 
 * A: managing cookbooks across multiple environments
-* B: chef log aggregation for analytics 
+* B: [chef log aggregation for analytics](Chef-log-aggregation-for-analytics)
 * C: better testing of cookbooks
 * D: AMA habitat
