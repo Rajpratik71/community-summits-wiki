@@ -1,3 +1,4 @@
+```
 Tools being used for pipelines:
 	GitLab/GitLab CI
 	Jenkins, Jenkins X
@@ -22,3 +23,4 @@ Write wrapper to Delivery Truck cookbook to do things like get credentials.  Bui
 	Most runs out of provision.rb.  If anything in the pipeline that bootstraps does a reboot, it causes it to fail and Terraform doesn't write to a statefile.
 Challenge of deploying to multiple clusters and orchestration:
 	Can be done w/ Chef, but need something to orchestrate and fence off (temporarily stop chef-client to eliminate randomness) and determine it is safe to upgrade.  Push jobs can be used, but Chef recommends getting away from Push Jobs and not doing anything new with them.  This client-pull based model is difficult without another tool to do things in a certain order.
+```
