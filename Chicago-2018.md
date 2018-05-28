@@ -2,7 +2,7 @@
 
 Session 1
  * A - [Getting into Open Source](1A-OpenSource)
- * B - [Inspec AMA, Extending InSpec, and CIS and STIG profiles](1B-InSpec)
+ * B - [Inspec AMA, Extending InSpec, and CIS and STIG profiles](InSpec-AMA,-Extending-InSpec,-and-CIS-and-STIG-profiles)
  * D - [Homegrown CI/CD pipelines](1D-Homegrown-CICD-pipelines)
 
 Session 2: 11:55 to 12:30
