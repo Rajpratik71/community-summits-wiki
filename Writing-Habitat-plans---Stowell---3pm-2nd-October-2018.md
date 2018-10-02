@@ -9,8 +9,7 @@ Might have Lifecycle hooks e.g.
   Metadata: Naming, License, maintainer etc.
   Build phases officially "callbacks" 
   
-**Action:** Check those phases are in the correct order in the docs:
-**Action:** Document when to use do_prepare vs do_build, do_before and do_after
+**Action:** Check those phases are in the correct order in the docs, especially when to use do_prepare vs do_build, do_before and do_after (@fnichol)
 
 Discussion:
   * do_before can be used for things like dynamic build versioning
@@ -19,4 +18,5 @@ Discussion:
   * Why hab - is this is Yet Another Package Format? Hab packages can all be installed side by side
   * Hab vs Chocolatey - there are similarities (user namespace, etc.) - Chocolatey is more vendor driven (runs scripts afterwards but not known build phases etc.)
   * Hab packages use pre-built packages as dependencies 
-  * Handing things to the ops team, Hab provides a point of 
+  * Handing things to the ops team, Hab provides a point of consistency
+  * Docker export, image will contain the whole app in a single layer
