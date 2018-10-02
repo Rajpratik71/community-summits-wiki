@@ -14,4 +14,7 @@ Links to open space discussions from Seattle 2018.
 
 [Chef, Inspec, Habitat, and Kubernetes](https://github.com/chef/community-summits/wiki/Chef,-Inspec,-Habitat,-Kubernetes-2018-10-02-2PM) - Stowell
 
+[Air-gapped Deployments](https://github.com/chef/community-summits/wiki/Air-gap---Douglas-2PM) - Douglas
+
+
 ### Session 3 - 3:00pm
