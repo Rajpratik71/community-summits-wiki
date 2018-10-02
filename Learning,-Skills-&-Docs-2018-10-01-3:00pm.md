@@ -36,13 +36,13 @@
     * Conflicting information between bot and user?
 
 - Resource Inspector
-    to generate community cookbook docs automatically
-    to generate updated documentation for Chef releases 
-    built-in IDE support
-    code completion
-    documentation snippet
+    * to generate community cookbook docs automatically
+    * to generate updated documentation for Chef releases 
+    * built-in IDE support
+    * code completion
+    * documentation snippet
     
 - Versioning of documentation
-   how verbose is the right balance?
-   split up by Chef platform rather than all-in-one   
-   `introduced` flag into code to add to docs
+   * how verbose is the right balance?
+   * split up by Chef platform rather than all-in-one   
+   * `introduced` flag into code to add to docs
