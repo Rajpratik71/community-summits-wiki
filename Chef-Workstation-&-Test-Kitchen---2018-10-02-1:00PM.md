@@ -1,1 +1,0 @@
-Wiki page for taking notes of the session
