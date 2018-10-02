@@ -7,4 +7,6 @@ Links to open space discussions from Seattle 2018.
 
 ### Session 2 - 2:00pm
 
+[All Things Chef Client](https://github.com/chef/community-summits/wiki/Chef-Client-Blob:-2018.10.2-1:00-PM) - Main Room
+
 ### Session 3 - 3:00pm
