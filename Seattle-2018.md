@@ -17,6 +17,8 @@ Links to open space discussions from Seattle 2018.
 
 [Air-gapped Deployments](https://github.com/chef/community-summits/wiki/Air-gap---Douglas-2PM) - Douglas
 
+[Chef-Server](https://github.com/chef/community-summits/wiki/Chef-Server---Cafe-2PM) - Cafe
+
 
 ### Session 3 - 3:00pm
 
