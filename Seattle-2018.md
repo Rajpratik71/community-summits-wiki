@@ -19,3 +19,5 @@ Links to open space discussions from Seattle 2018.
 
 
 ### Session 3 - 3:00pm
+
+[Learning, Skills and Docs - Couch Area](https://github.com/chef/community-summits/wiki/Learning,-Skills-&-Docs-2018-10-01-3:00pm)
