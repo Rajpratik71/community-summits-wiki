@@ -5,8 +5,9 @@ Links to open space discussions from Seattle 2018.
 
 [Chef-Workstation & Test Kitchen](https://github.com/chef/community-summits/wiki/Chef-Workstation-&-Test-Kitchen---2018-10-02-1:00PM) - Main Room
 
+[Habichef](https://github.com/chef/community-summits/wiki/2018-Seattle-Habichef) - Erickson
 
-[Accessibility] (https://github.com/chef/community-summits/wiki/Accessibility-2018-10-02---1300) - Couches
+[Accessibility](https://github.com/chef/community-summits/wiki/Accessibility-2018-10-02---1300) - Couches
 
 ### Session 2 - 2:00pm
 
