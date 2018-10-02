@@ -20,3 +20,4 @@ Discussion:
   * Hab packages use pre-built packages as dependencies 
   * Handing things to the ops team, Hab provides a point of consistency
   * Docker export, image will contain the whole app in a single layer
+  * Build relies on docker engine
