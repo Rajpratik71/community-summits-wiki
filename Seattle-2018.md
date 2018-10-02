@@ -27,3 +27,5 @@ Links to open space discussions from Seattle 2018.
 [InSpec Workflow](https://github.com/chef/community-summits/wiki/InSpec-WorkFlow-2018-10-01-3:00pm) - Douglass
 
 [Writing Habitat plans](https://github.com/chef/community-summits/wiki/Writing-Habitat-plans---Stowell---3pm-2nd-October-2018)
+
+[Adopting PolicyFile Use](https://github.com/chef/community-summits/wiki/Adopting-Policy-File-Use---Here---3pm-2nd-October-2018)  Here
