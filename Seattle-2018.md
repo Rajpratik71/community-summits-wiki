@@ -19,6 +19,8 @@ Links to open space discussions from Seattle 2018.
 
 [Chef-Server](https://github.com/chef/community-summits/wiki/Chef-Server---Cafe-2PM) - Cafe
 
+[Habitat Private Origins](https://github.com/chef/community-summits/wiki/Habitat-Private-Origins-2018-10-02-1400-1450) - Erickson
+
 
 ### Session 3 - 3:00pm
 
